@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF7AA6E7AA6D0FBE3025F6E /* libPods-8 Ball of Love.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE8F0C23C95D96E0789D22C /* libPods-8 Ball of Love.a */; };
+		4901A9171E52627C00C8064E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901A9161E52627C00C8064E /* main.m */; };
+		4901A91A1E52627C00C8064E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901A9191E52627C00C8064E /* AppDelegate.m */; };
+		4901A91D1E52627C00C8064E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901A91C1E52627C00C8064E /* ViewController.m */; };
+		4901A9201E52627C00C8064E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4901A91E1E52627C00C8064E /* Main.storyboard */; };
+		4901A9221E52627C00C8064E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4901A9211E52627C00C8064E /* Assets.xcassets */; };
+		4901A9251E52627C00C8064E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4901A9231E52627C00C8064E /* LaunchScreen.storyboard */; };
+		4901A9301E52627D00C8064E /* __Ball_of_LoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901A92F1E52627D00C8064E /* __Ball_of_LoveTests.m */; };
+		CD2CB486A346F2EA48CC8337 /* libPods-8 Ball of LoveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 643E08FC2D3FE73DD88F2889 /* libPods-8 Ball of LoveTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4901A92C1E52627D00C8064E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4901A90A1E52627C00C8064E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4901A9111E52627C00C8064E;
+			remoteInfo = "8 Ball of Love";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CE8F0C23C95D96E0789D22C /* libPods-8 Ball of Love.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8 Ball of Love.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4901A9121E52627C00C8064E /* 8 Ball of Love.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8 Ball of Love.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4901A9161E52627C00C8064E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4901A9181E52627C00C8064E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4901A9191E52627C00C8064E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4901A91B1E52627C00C8064E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4901A91C1E52627C00C8064E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4901A91F1E52627C00C8064E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4901A9211E52627C00C8064E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4901A9241E52627C00C8064E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4901A9261E52627C00C8064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4901A92B1E52627D00C8064E /* 8 Ball of LoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8 Ball of LoveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4901A92F1E52627D00C8064E /* __Ball_of_LoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Ball_of_LoveTests.m; sourceTree = "<group>"; };
+		4901A9311E52627D00C8064E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643E08FC2D3FE73DD88F2889 /* libPods-8 Ball of LoveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8 Ball of LoveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680AD03CF119DEC507C908F2 /* Pods-8 Ball of LoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8 Ball of LoveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-8 Ball of LoveTests/Pods-8 Ball of LoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B7617CE8F000CD8948DEB5 /* Pods-8 Ball of Love.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8 Ball of Love.debug.xcconfig"; path = "Pods/Target Support Files/Pods-8 Ball of Love/Pods-8 Ball of Love.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D2562FE0E700BDA52543FB /* Pods-8 Ball of Love.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8 Ball of Love.release.xcconfig"; path = "Pods/Target Support Files/Pods-8 Ball of Love/Pods-8 Ball of Love.release.xcconfig"; sourceTree = "<group>"; };
+		ED4F9CD0A6D3F06E3A47A282 /* Pods-8 Ball of LoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8 Ball of LoveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-8 Ball of LoveTests/Pods-8 Ball of LoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4901A90F1E52627C00C8064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF7AA6E7AA6D0FBE3025F6E /* libPods-8 Ball of Love.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4901A9281E52627D00C8064E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2CB486A346F2EA48CC8337 /* libPods-8 Ball of LoveTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CC14247EBA38971A671745 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8F0C23C95D96E0789D22C /* libPods-8 Ball of Love.a */,
+				643E08FC2D3FE73DD88F2889 /* libPods-8 Ball of LoveTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4901A9091E52627C00C8064E = {
+			isa = PBXGroup;
+			children = (
+				4901A9141E52627C00C8064E /* 8 Ball of Love */,
+				4901A92E1E52627D00C8064E /* 8 Ball of LoveTests */,
+				4901A9131E52627C00C8064E /* Products */,
+				FC724BADD3D5AB0EF917C7EF /* Pods */,
+				43CC14247EBA38971A671745 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4901A9131E52627C00C8064E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4901A9121E52627C00C8064E /* 8 Ball of Love.app */,
+				4901A92B1E52627D00C8064E /* 8 Ball of LoveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4901A9141E52627C00C8064E /* 8 Ball of Love */ = {
+			isa = PBXGroup;
+			children = (
+				4901A9181E52627C00C8064E /* AppDelegate.h */,
+				4901A9191E52627C00C8064E /* AppDelegate.m */,
+				4901A91B1E52627C00C8064E /* ViewController.h */,
+				4901A91C1E52627C00C8064E /* ViewController.m */,
+				4901A91E1E52627C00C8064E /* Main.storyboard */,
+				4901A9211E52627C00C8064E /* Assets.xcassets */,
+				4901A9231E52627C00C8064E /* LaunchScreen.storyboard */,
+				4901A9261E52627C00C8064E /* Info.plist */,
+				4901A9151E52627C00C8064E /* Supporting Files */,
+			);
+			path = "8 Ball of Love";
+			sourceTree = "<group>";
+		};
+		4901A9151E52627C00C8064E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4901A9161E52627C00C8064E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4901A92E1E52627D00C8064E /* 8 Ball of LoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				4901A92F1E52627D00C8064E /* __Ball_of_LoveTests.m */,
+				4901A9311E52627D00C8064E /* Info.plist */,
+			);
+			path = "8 Ball of LoveTests";
+			sourceTree = "<group>";
+		};
+		FC724BADD3D5AB0EF917C7EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6B7617CE8F000CD8948DEB5 /* Pods-8 Ball of Love.debug.xcconfig */,
+				E8D2562FE0E700BDA52543FB /* Pods-8 Ball of Love.release.xcconfig */,
+				ED4F9CD0A6D3F06E3A47A282 /* Pods-8 Ball of LoveTests.debug.xcconfig */,
+				680AD03CF119DEC507C908F2 /* Pods-8 Ball of LoveTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4901A9111E52627C00C8064E /* 8 Ball of Love */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4901A9341E52627D00C8064E /* Build configuration list for PBXNativeTarget "8 Ball of Love" */;
+			buildPhases = (
+				B9FF06064008C48C16AA8370 /* [CP] Check Pods Manifest.lock */,
+				4901A90E1E52627C00C8064E /* Sources */,
+				4901A90F1E52627C00C8064E /* Frameworks */,
+				4901A9101E52627C00C8064E /* Resources */,
+				4CDE46AAB49458F945E32F9B /* [CP] Embed Pods Frameworks */,
+				A21ECC9F92412D032CF19C1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8 Ball of Love";
+			productName = "8 Ball of Love";
+			productReference = 4901A9121E52627C00C8064E /* 8 Ball of Love.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4901A92A1E52627D00C8064E /* 8 Ball of LoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4901A9371E52627D00C8064E /* Build configuration list for PBXNativeTarget "8 Ball of LoveTests" */;
+			buildPhases = (
+				1813220B5F78AF604D20C013 /* [CP] Check Pods Manifest.lock */,
+				4901A9271E52627D00C8064E /* Sources */,
+				4901A9281E52627D00C8064E /* Frameworks */,
+				4901A9291E52627D00C8064E /* Resources */,
+				AE83C12CA9665E84810C760E /* [CP] Embed Pods Frameworks */,
+				239D458715B05738B7766423 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4901A92D1E52627D00C8064E /* PBXTargetDependency */,
+			);
+			name = "8 Ball of LoveTests";
+			productName = "8 Ball of LoveTests";
+			productReference = 4901A92B1E52627D00C8064E /* 8 Ball of LoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4901A90A1E52627C00C8064E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thryv, Inc.";
+				TargetAttributes = {
+					4901A9111E52627C00C8064E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Manual;
+					};
+					4901A92A1E52627D00C8064E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PE7EQ66NRS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4901A9111E52627C00C8064E;
+					};
+				};
+			};
+			buildConfigurationList = 4901A90D1E52627C00C8064E /* Build configuration list for PBXProject "8 Ball of Love" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4901A9091E52627C00C8064E;
+			productRefGroup = 4901A9131E52627C00C8064E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4901A9111E52627C00C8064E /* 8 Ball of Love */,
+				4901A92A1E52627D00C8064E /* 8 Ball of LoveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4901A9101E52627C00C8064E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4901A9251E52627C00C8064E /* LaunchScreen.storyboard in Resources */,
+				4901A9221E52627C00C8064E /* Assets.xcassets in Resources */,
+				4901A9201E52627C00C8064E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4901A9291E52627D00C8064E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1813220B5F78AF604D20C013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		239D458715B05738B7766423 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8 Ball of LoveTests/Pods-8 Ball of LoveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDE46AAB49458F945E32F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8 Ball of Love/Pods-8 Ball of Love-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21ECC9F92412D032CF19C1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8 Ball of Love/Pods-8 Ball of Love-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE83C12CA9665E84810C760E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-8 Ball of LoveTests/Pods-8 Ball of LoveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FF06064008C48C16AA8370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4901A90E1E52627C00C8064E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4901A91D1E52627C00C8064E /* ViewController.m in Sources */,
+				4901A91A1E52627C00C8064E /* AppDelegate.m in Sources */,
+				4901A9171E52627C00C8064E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4901A9271E52627D00C8064E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4901A9301E52627D00C8064E /* __Ball_of_LoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4901A92D1E52627D00C8064E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4901A9111E52627C00C8064E /* 8 Ball of Love */;
+			targetProxy = 4901A92C1E52627D00C8064E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4901A91E1E52627C00C8064E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4901A91F1E52627C00C8064E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4901A9231E52627C00C8064E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4901A9241E52627C00C8064E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4901A9321E52627D00C8064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4901A9331E52627D00C8064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "08a7fadf-93b6-44ad-a200-d449c0c5263e";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4901A9351E52627D00C8064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B7617CE8F000CD8948DEB5 /* Pods-8 Ball of Love.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "8 Ball of Love/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.Eightball-of-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4901A9361E52627D00C8064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D2562FE0E700BDA52543FB /* Pods-8 Ball of Love.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Todd Elliot Schrock (PE7EQ66NRS)";
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "8 Ball of Love/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.Eightball-of-Love";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "08a7fadf-93b6-44ad-a200-d449c0c5263e";
+				PROVISIONING_PROFILE_SPECIFIER = "8ball Distribution";
+			};
+			name = Release;
+		};
+		4901A9381E52627D00C8064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4F9CD0A6D3F06E3A47A282 /* Pods-8 Ball of LoveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "8 Ball of LoveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.--Ball-of-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8 Ball of Love.app/8 Ball of Love";
+			};
+			name = Debug;
+		};
+		4901A9391E52627D00C8064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 680AD03CF119DEC507C908F2 /* Pods-8 Ball of LoveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PE7EQ66NRS;
+				INFOPLIST_FILE = "8 Ball of LoveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thryvinc.--Ball-of-LoveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8 Ball of Love.app/8 Ball of Love";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4901A90D1E52627C00C8064E /* Build configuration list for PBXProject "8 Ball of Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4901A9321E52627D00C8064E /* Debug */,
+				4901A9331E52627D00C8064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4901A9341E52627D00C8064E /* Build configuration list for PBXNativeTarget "8 Ball of Love" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4901A9351E52627D00C8064E /* Debug */,
+				4901A9361E52627D00C8064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4901A9371E52627D00C8064E /* Build configuration list for PBXNativeTarget "8 Ball of LoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4901A9381E52627D00C8064E /* Debug */,
+				4901A9391E52627D00C8064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4901A90A1E52627C00C8064E /* Project object */;
+}

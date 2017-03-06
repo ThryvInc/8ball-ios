@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7v-B0-Ih2">
+                                <rect key="frame" x="137.5" y="55" width="100" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afc-91-qKo">
+                                        <rect key="frame" x="8" y="8" width="84" height="84"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="48"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="afc-91-qKo" secondAttribute="bottom" constant="8" id="7yp-GT-quX"/>
+                                    <constraint firstAttribute="height" constant="100" id="9gK-E4-cdY"/>
+                                    <constraint firstAttribute="trailing" secondItem="afc-91-qKo" secondAttribute="trailing" constant="8" id="bvS-Ns-dWu"/>
+                                    <constraint firstAttribute="width" constant="100" id="f8L-G1-3ak"/>
+                                    <constraint firstItem="afc-91-qKo" firstAttribute="top" secondItem="f7v-B0-Ih2" secondAttribute="top" constant="8" id="fak-Q0-Phg"/>
+                                    <constraint firstItem="afc-91-qKo" firstAttribute="leading" secondItem="f7v-B0-Ih2" secondAttribute="leading" constant="8" id="qX5-ri-crK"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMd-1G-rvt">
+                                <rect key="frame" x="24" y="253" width="327" height="54"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake me!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFL-JE-HQ0">
+                                        <rect key="frame" x="8" y="8" width="311" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sFL-JE-HQ0" firstAttribute="top" secondItem="pMd-1G-rvt" secondAttribute="top" constant="8" id="2yA-wx-cDU"/>
+                                    <constraint firstItem="sFL-JE-HQ0" firstAttribute="leading" secondItem="pMd-1G-rvt" secondAttribute="leading" constant="8" id="S2d-9c-fgZ"/>
+                                    <constraint firstAttribute="height" constant="54" id="VhZ-pp-uSK"/>
+                                    <constraint firstAttribute="trailing" secondItem="sFL-JE-HQ0" secondAttribute="trailing" constant="8" id="e7A-l8-Wb9"/>
+                                    <constraint firstAttribute="bottom" secondItem="sFL-JE-HQ0" secondAttribute="bottom" constant="8" id="j5g-Yh-RX6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="pMd-1G-rvt" secondAttribute="trailing" constant="8" id="Bxa-Dq-ztO"/>
+                            <constraint firstItem="pMd-1G-rvt" firstAttribute="top" secondItem="f7v-B0-Ih2" secondAttribute="bottom" constant="98" id="II2-Dq-F8f"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="pMd-1G-rvt" secondAttribute="leading" constant="-8" id="ONE-Uq-U5P"/>
+                            <constraint firstItem="f7v-B0-Ih2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="eW9-Al-H9O"/>
+                            <constraint firstItem="f7v-B0-Ih2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zer-0d-jZ7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="affirmationLabel" destination="sFL-JE-HQ0" id="0zr-U7-IG5"/>
+                        <outlet property="affirmationView" destination="pMd-1G-rvt" id="bKv-5o-QRj"/>
+                        <outlet property="eightView" destination="f7v-B0-Ih2" id="qdK-gq-nvr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
